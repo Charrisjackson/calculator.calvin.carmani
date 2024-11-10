@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="calculatorwrapper">
+      <!-- innerHTML wont work on input boxes, use white bavckground on a div!  -->
+      <div class="inputbox" id="inputbox"></div>
+      <div class="buttonCalculator">
+        <button onclick="clearButton()" class="clear">C</button>
+        <button class="plus button">+</button>
+        <button class="percentage button">%</button>
+        <button class="division button">/</button>
+        <button class="seven button">7</button>
+        <button class="eight button">8</button>
+        <button class="nine button">9</button>
+        <button class="mult button">*</button>
+        <button class="four button">4</button>
+        <button class="five button">5</button>
+        <button class="six button">6</button>
+        <button class="subtraction button">-</button>
+        <button class="one button">1</button>
+        <button class="two button">2</button>
+        <button class="three button">3</button>
+        <button class="addition button">+</button>
+        <button class="itemzero button">0</button>
+        <button class="decimal button">.</button>
+        <button onclick="calculateEquation()" class="equals">=</button>
+      </div>
+    </section>
+    <script src="carmani2.js"></script>
+  </body>
+</html>
